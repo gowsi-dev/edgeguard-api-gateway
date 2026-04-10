@@ -1,6 +1,4 @@
-# EdgeGuard - API Gateway Project
-## Description
-.NET API Gateway with API key authentication, rate limiting, JWT authorization, and request logging.
+# EdgeGuard - API Gateway Project.
 
 ## 📌 Overview
 EdgeGuard is a simple API Gateway built using .NET.
@@ -80,6 +78,17 @@ POST /gateway/appointments/GetTimeSlot?dateString=16-01-2026
 Headers:
 x-api-key: client_free_001  
 Authorization: Bearer <token>
+
+---
+
+## 🔗 Related Project
+
+This API Gateway works with the backend service:
+
+👉 SmartAppointmentScheduler API  
+[https://github.com/your-username/smartappointmentscheduler](https://github.com/gowsi-dev/SmartAppointmentScheduler.API)
+
+This backend API handles business logic and JWT-based authentication.
 
 ---
 
