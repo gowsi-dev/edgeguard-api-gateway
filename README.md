@@ -1,4 +1,6 @@
 # EdgeGuard - API Gateway Project
+## Description
+.NET API Gateway with API key authentication, rate limiting, JWT authorization, and request logging.
 
 ## 📌 Overview
 EdgeGuard is a simple API Gateway built using .NET.
