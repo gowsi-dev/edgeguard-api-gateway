@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeGuard", "EdgeGuard\EdgeGuard.csproj", "{35FEC2B5-9B16-46D7-8AEF-6A80F85A6D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeGuard.API", "EdgeGuard.API\EdgeGuard.API.csproj", "{F616F14A-9B42-42A9-A9B3-E1917385CBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeGuard.Application", "EdgeGuard.Application\EdgeGuard.Application.csproj", "{ABAF31DC-5B88-4F9B-A237-1DABE679E233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeGuard.Domain", "EdgeGuard.Domain\EdgeGuard.Domain.csproj", "{FD47E73A-F60E-400E-857B-744BC6CB459F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeGuard.Infrastructure", "EdgeGuard.Infrastructure\EdgeGuard.Infrastructure.csproj", "{676BEEA7-19D4-4FE6-8856-C69987B2E1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAppointmentScheduler", "..\SmartAppointmentScheduler\SmartAppointmentScheduler\SmartAppointmentScheduler.csproj", "{44EB4BBC-E6D8-323F-07A2-3DDE73151F15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35FEC2B5-9B16-46D7-8AEF-6A80F85A6D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FEC2B5-9B16-46D7-8AEF-6A80F85A6D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FEC2B5-9B16-46D7-8AEF-6A80F85A6D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FEC2B5-9B16-46D7-8AEF-6A80F85A6D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F616F14A-9B42-42A9-A9B3-E1917385CBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F616F14A-9B42-42A9-A9B3-E1917385CBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F616F14A-9B42-42A9-A9B3-E1917385CBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F616F14A-9B42-42A9-A9B3-E1917385CBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAF31DC-5B88-4F9B-A237-1DABE679E233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAF31DC-5B88-4F9B-A237-1DABE679E233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAF31DC-5B88-4F9B-A237-1DABE679E233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAF31DC-5B88-4F9B-A237-1DABE679E233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD47E73A-F60E-400E-857B-744BC6CB459F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD47E73A-F60E-400E-857B-744BC6CB459F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD47E73A-F60E-400E-857B-744BC6CB459F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD47E73A-F60E-400E-857B-744BC6CB459F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{676BEEA7-19D4-4FE6-8856-C69987B2E1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{676BEEA7-19D4-4FE6-8856-C69987B2E1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{676BEEA7-19D4-4FE6-8856-C69987B2E1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{676BEEA7-19D4-4FE6-8856-C69987B2E1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EB4BBC-E6D8-323F-07A2-3DDE73151F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EB4BBC-E6D8-323F-07A2-3DDE73151F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EB4BBC-E6D8-323F-07A2-3DDE73151F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EB4BBC-E6D8-323F-07A2-3DDE73151F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C56DCFCE-AE77-49DD-9325-0DA43A05BC3A}
+	EndGlobalSection
+EndGlobal

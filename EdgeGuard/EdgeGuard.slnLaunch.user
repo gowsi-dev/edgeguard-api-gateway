@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "EdgeGuard.API\\EdgeGuard.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\SmartAppointmentScheduler\\SmartAppointmentScheduler\\SmartAppointmentScheduler.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
