@@ -1,6 +1,6 @@
 # EdgeGuard - API Gateway Project.
 
-## 📌 Overview
+## Overview
 EdgeGuard is a simple API Gateway built using .NET.
 
 It sits between the client and backend API and handles:
@@ -11,19 +11,19 @@ It sits between the client and backend API and handles:
 
 ---
 
-## 🧠 How It Works (Simple Flow)
+## How It Works (Simple Flow)
 
 Client → EdgeGuard → Backend API → Response
 
 ---
 
-## 📊 Architecture Diagram
+## Architecture Diagram
 <img width="1536" height="1024" alt="API gateway architecture workflow diagram" src="https://github.com/user-attachments/assets/6a427870-8b60-4385-8352-524071d208e4" />
 
 
 ---
 
-## 🔁 Request Flow (Step-by-Step)
+## Request Flow (Step-by-Step)
 
 1. Client sends request with:
    - x-api-key
@@ -44,7 +44,7 @@ Client → EdgeGuard → Backend API → Response
 
 ---
 
-## 🚀 Features
+## Features
 
 - API Key Authentication
 - Rate Limiting (per client)
@@ -54,7 +54,7 @@ Client → EdgeGuard → Backend API → Response
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - .NET Web API
 - SQL Server
@@ -62,7 +62,7 @@ Client → EdgeGuard → Backend API → Response
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
 2. Run SmartAppointmentScheduler API
@@ -71,7 +71,7 @@ Client → EdgeGuard → Backend API → Response
 
 ---
 
-## 📌 Sample Request
+## Sample Request
 
 POST /gateway/appointments/GetTimeSlot?dateString=16-01-2026
 
@@ -81,7 +81,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 🔗 Related Project
+## Related Project
 
 This API Gateway works with the backend service:
 
@@ -92,7 +92,7 @@ This backend API handles business logic and JWT-based authentication.
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Redis-based rate limiting
 - Azure deployment
